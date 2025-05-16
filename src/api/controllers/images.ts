@@ -107,8 +107,8 @@ export async function generateImages(
                     large_image_info: {
                       type: "",
                       id: util.uuid(),
-                      height,
-                      width,
+                      height:height,
+                      height:width,
                     },
                   },
                   history_option: {
